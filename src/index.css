@@ -24,6 +24,42 @@ body {
     @apply bg-background text-foreground antialiased font-sans overflow-hidden;
 }
 
+/* Presentation readability scale for dense slide content */
+.presentation-deck {
+    --presentation-text-xs: clamp(0.94rem, calc(0.74rem + 0.28vw), 1.06rem);
+    --presentation-text-sm: clamp(1rem, calc(0.8rem + 0.3vw), 1.15rem);
+    --presentation-text-base: clamp(1.06rem, calc(0.86rem + 0.3vw), 1.22rem);
+    --presentation-line-tight: 1.4;
+    --presentation-line-regular: 1.5;
+}
+
+.presentation-deck .text-xs {
+    font-size: var(--presentation-text-xs) !important;
+    line-height: var(--presentation-line-tight) !important;
+}
+
+.presentation-deck .text-sm {
+    font-size: var(--presentation-text-sm) !important;
+    line-height: var(--presentation-line-regular) !important;
+}
+
+.presentation-deck .text-base {
+    font-size: var(--presentation-text-base) !important;
+    line-height: var(--presentation-line-regular) !important;
+}
+
+.presentation-deck [class*="text-[9px]"],
+.presentation-deck [class*="text-[10px]"],
+.presentation-deck [class*="text-[11px]"] {
+    font-size: var(--presentation-text-xs) !important;
+    line-height: var(--presentation-line-tight) !important;
+}
+
+.presentation-deck [class*="text-[12px]"] {
+    font-size: var(--presentation-text-sm) !important;
+    line-height: var(--presentation-line-regular) !important;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
     width: 8px;

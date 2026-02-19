@@ -27,7 +27,7 @@ const Deck = ({ slides }) => {
     };
 
     return (
-        <div className="relative w-full h-screen bg-background text-foreground overflow-hidden">
+        <div className="presentation-deck relative w-full h-screen bg-background text-foreground overflow-hidden">
             {/* Slide Content */}
             <AnimatePresence mode="wait">
                 <motion.div
