@@ -3,6 +3,7 @@ import Deck from './components/Deck';
 import HeroSlide from './slides/HeroSlide';
 import ProblemSlide from './slides/ProblemSlide';
 import ConceptSlide from './slides/ConceptSlide';
+import VibeDefinitionSlide from './slides/VibeDefinitionSlide';
 import MindsetSlide from './slides/MindsetSlide';
 import ToolsSlide from './slides/ToolsSlide';
 import SpotifyCaseSlide from './slides/SpotifyCaseSlide';
@@ -19,6 +20,7 @@ const slides = [
   <HeroSlide />,
   <ProblemSlide />,
   <ConceptSlide />,
+  <VibeDefinitionSlide />,
   <MindsetSlide />,
   <ToolsSlide />,
   <SpotifyCaseSlide />,
