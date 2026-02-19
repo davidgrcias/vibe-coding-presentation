@@ -8,41 +8,37 @@ const VibeTutorialSlide = () => {
         {
             step: "01",
             icon: <FileText size={22} className="text-blue-400" />,
-            title: "Define Your PRD",
+            title: "Write a Blueprint",
             color: "border-blue-500 bg-blue-500/10",
             accent: "text-blue-400",
-            code: `# My App - PRD
-- User can login via Google OAuth
-- Dashboard shows top 5 tasks
-- Add/edit/delete tasks
-- Mobile-friendly UI`,
-            tip: "The clearer your spec, the better the AI output."
+            code: `# App Idea: Task Manager
+- Users can login (Google)
+- See tasks in a list
+- Click to complete task
+- Mobile friendly`,
+            tip: "Don't guess. Write it down first (PRD)."
         },
         {
             step: "02",
             icon: <Wrench size={22} className="text-purple-400" />,
-            title: "Pick Your Stack",
+            title: "Choose Smart Tools",
             color: "border-purple-500 bg-purple-500/10",
             accent: "text-purple-400",
-            code: `Stack: Next.js + TypeScript
-DB:    Supabase (Postgres)
-Auth:  Supabase Auth
-AI:    Cursor / Windsurf
-Deploy: Vercel`,
-            tip: "Choose tools AI writes well. Avoid exotic configs."
+            code: `Frontend: Next.js + Tailwind
+Backend:  Supabase
+Editor:   Cursor / Windsurf`,
+            tip: "Use popular tools that AI knows perfectly."
         },
         {
             step: "03",
             icon: <MessageSquare size={22} className="text-green-400" />,
-            title: "Prompt the AI",
+            title: "Talk to AI",
             color: "border-green-500 bg-green-500/10",
             accent: "text-green-400",
-            code: `"Build a task manager app based
-on this PRD. Use Next.js 14 App
-Router, Supabase for auth + DB,
-and Tailwind for styling. Start
-with the auth flow first."`,
-            tip: "Give full context upfront. Don't drip-feed info."
+            code: `"Create this app using the Blueprint above.
+Use the tools I listed.
+Start with the Login page."`,
+            tip: "Be bossy but specific. Give context."
         },
         {
             step: "04",

@@ -12,11 +12,11 @@ const AgentTrendSlide = () => {
     ];
 
     const evolution = [
-        { label: "Autocomplete", desc: "Tab-complete a line", tool: "2021", color: "text-slate-500" },
-        { label: "Copilot", desc: "Suggest whole functions", tool: "2022", color: "text-blue-400" },
-        { label: "Chat AI", desc: "Ask, explain, refactor", tool: "2023", color: "text-green-400" },
-        { label: "Vibe Coding", desc: "Describe → full app", tool: "2024", color: "text-primary" },
-        { label: "AI Agents", desc: "Autonomous end-to-end", tool: "2025+", color: "text-yellow-400" },
+        { label: "Autocomplete", desc: "Finishes your line", tool: "Era 1", color: "text-slate-500" },
+        { label: "Copilot", desc: "Writes functions", tool: "Era 2", color: "text-blue-400" },
+        { label: "Chat AI", desc: "Explains & Fixes", tool: "Era 3", color: "text-green-400" },
+        { label: "Vibe Coding", desc: "Natural Language → App", tool: "NOW", color: "text-primary bg-primary/10 px-2 rounded" },
+        { label: "AI Agents", desc: "Works while you sleep", tool: "NEXT", color: "text-yellow-400" },
     ];
 
     const yc = {

@@ -7,23 +7,23 @@ const SpotifyCaseSlide = () => {
     const insights = [
         {
             icon: <Zap className="text-green-400" />,
-            label: "AI Orchestration",
-            text: "Spotify devs focus on review and refinement."
+            label: "AI Orchestrators",
+            text: "Devs don't just write code; they manage AI agents."
         },
         {
             icon: <Eye className="text-blue-400" />,
-            label: "Nerd Eyes",
-            text: "Intuition to evaluate and improve AI output."
+            label: "Expert Review",
+            text: "Using 'Nerd Eyes' to spot bugs AI misses."
         },
         {
             icon: <ShieldCheck className="text-red-400" />,
-            label: "Anti-AI Slop",
-            text: "Fundamentals prevent security & logic issues."
+            label: "Quality Control",
+            text: "Filtering out bad code ('Slop') with deep knowledge."
         },
         {
             icon: <Layers className="text-purple-400" />,
-            label: "Orchestration",
-            text: "Senior roles are expanding, not dying."
+            label: "More Strategy",
+            text: "Focus on Architecture & Logic, not syntax errors."
         }
     ];
 
