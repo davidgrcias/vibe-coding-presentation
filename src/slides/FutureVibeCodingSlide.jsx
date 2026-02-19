@@ -59,7 +59,7 @@ const FutureVibeCodingSlide = () => {
                 >
                     <div className="bg-slate-900 rounded-3xl border-2 border-orange-500/20 shadow-[0_0_80px_-20px_rgba(249,115,22,0.3)] overflow-hidden">
                         <img
-                            src="/future-vibe-coding.png"
+                            src="future-vibe-coding.png"
                             alt="ThePrimeagen - Vibe Coding Is The Future"
                             className="w-full h-auto block"
                         />

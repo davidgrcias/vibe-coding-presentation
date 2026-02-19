@@ -58,7 +58,7 @@ const VibeFundamentalsSlide = () => {
                 >
                     <div className="bg-slate-900 rounded-3xl border-2 border-pink-500/20 shadow-[0_0_80px_-20px_rgba(236,72,153,0.3)] overflow-hidden">
                         <img
-                            src="/vibe-coding.png"
+                            src="vibe-coding.png"
                             alt="Tina Huang - Vibe Coding Fundamentals"
                             className="w-full h-auto block"
                         />

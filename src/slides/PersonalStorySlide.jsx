@@ -40,7 +40,7 @@ const PersonalStorySlide = () => {
                         <div className="bg-slate-900 rounded-2xl border border-slate-700 p-2 shadow-2xl overflow-hidden relative group">
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10 pointer-events-none" />
                             <img
-                                src="/personal-story-youtube.jpg"
+                                src="personal-story-youtube.jpg"
                                 alt="YouTube Views Decline Chart"
                                 className="w-full h-auto rounded-xl opacity-90 group-hover:opacity-100 transition-opacity"
                             />

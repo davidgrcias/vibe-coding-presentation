@@ -62,7 +62,7 @@ const AgentSkillsSlide = () => {
                 >
                     <div className="bg-slate-900 rounded-3xl border-2 border-cyan-500/20 shadow-[0_0_80px_-20px_rgba(34,211,238,0.4)] overflow-hidden">
                         <img
-                            src="/programmerzamannow.png"
+                            src="programmerzamannow.png"
                             alt="Programmer Zaman Now - AI Agent Skills"
                             className="w-full h-auto block"
                         />

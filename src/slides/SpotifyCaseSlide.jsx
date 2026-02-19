@@ -52,7 +52,7 @@ const SpotifyCaseSlide = () => {
                 >
                     <div className="bg-slate-900 rounded-3xl border-2 border-green-500/20 shadow-[0_0_80px_-20px_rgba(34,197,94,0.4)] overflow-hidden">
                         <img
-                            src="/spotify.png"
+                            src="spotify.png"
                             alt="Spotify Top Developers"
                             className="w-full h-auto block"
                         />

@@ -59,7 +59,7 @@ const VibeDefinitionSlide = () => {
                 >
                     <div className="bg-slate-900 rounded-3xl border-2 border-green-500/20 shadow-[0_0_80px_-20px_rgba(34,197,94,0.3)] overflow-hidden">
                         <img
-                            src="/what-is-vibe-coding.png"
+                            src="what-is-vibe-coding.png"
                             alt="Matthew Berman - Vibe Coding Introduction"
                             className="w-full h-auto block"
                         />

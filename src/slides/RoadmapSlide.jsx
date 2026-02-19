@@ -59,7 +59,7 @@ const RoadmapSlide = () => {
                 >
                     <div className="bg-slate-900 rounded-3xl border-2 border-primary/20 shadow-[0_0_80px_-20px_rgba(var(--primary-rgb),0.2)] overflow-hidden">
                         <img
-                            src="/wpu.png"
+                            src="wpu.png"
                             alt="Roadmap 2026"
                             className="w-full h-auto block"
                         />
