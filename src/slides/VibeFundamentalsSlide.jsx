@@ -7,23 +7,23 @@ const VibeFundamentalsSlide = () => {
     const fundamentals = [
         {
             icon: <Brain className="text-pink-400" />,
-            title: "Mindset",
-            desc: "Focus on Intent, not Syntax. Iteration > Perfection."
+            title: "4 Thinking Levels",
+            desc: "Logical (What), Analytical (How), Computational (Logic), Procedural (Execution)."
         },
         {
             icon: <FileText className="text-blue-400" />,
             title: "The PRD",
-            desc: "No chaos. Start with a clear spec or bulleted list."
+            desc: "Zero chaos. Define audience, features, and milestones before prompting AI."
         },
         {
             icon: <LayoutTemplate className="text-purple-400" />,
-            title: "Stack Choice",
-            desc: "Choose composable tools (Next.js, Supabase) that AI writes well."
+            title: "AI-Friendly Stack",
+            desc: "Next.js, Tailwind, Supabase. Choose tools AI writes well for best results."
         },
         {
             icon: <Bug className="text-red-400" />,
-            title: "Debugging",
-            desc: "Don't staring at code. Ask AI to explain, isolate, and test."
+            title: "Git Safety Net",
+            desc: "Commit frequently. Avoid losing work by versioning every milestone."
         }
     ];
 
@@ -38,7 +38,7 @@ const VibeFundamentalsSlide = () => {
                         animate={{ opacity: 1, y: 0 }}
                         className="inline-block px-3 py-1 rounded-full bg-pink-500/10 border border-pink-500/20 text-pink-400 text-xs font-mono mb-2 uppercase tracking-widest"
                     >
-                        Tina Huang • 33 Min Guide
+                        Tina Huang • Fundamentals Guide
                     </motion.div>
                     <motion.h1
                         initial={{ opacity: 0, y: -20 }}
@@ -56,7 +56,7 @@ const VibeFundamentalsSlide = () => {
                     transition={{ duration: 0.8 }}
                     className="w-full mb-8 relative"
                 >
-                    <div className="bg-slate-900 rounded-3xl border-2 border-pink-500/20 shadow-[0_0_80px_-20px_rgba(236,72,153,0.4)] overflow-hidden">
+                    <div className="bg-slate-900 rounded-3xl border-2 border-pink-500/20 shadow-[0_0_80px_-20px_rgba(236,72,153,0.3)] overflow-hidden">
                         <img
                             src="/vibe-coding.png"
                             alt="Tina Huang - Vibe Coding Fundamentals"
@@ -73,15 +73,15 @@ const VibeFundamentalsSlide = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.4 + (index * 0.1) }}
-                            className="p-4 rounded-xl border border-white/10 bg-white/5 backdrop-blur-md hover:bg-white/10 transition-colors"
+                            className="p-5 rounded-xl border border-white/10 bg-white/5 backdrop-blur-md hover:bg-white/10 transition-all group"
                         >
                             <div className="flex items-center gap-3 mb-2">
-                                <div className="p-2 rounded-lg bg-black/20">
+                                <div className="p-2 rounded-lg bg-black/40 group-hover:bg-pink-500/20 transition-colors">
                                     {item.icon}
                                 </div>
                                 <h3 className="text-xs font-bold text-white uppercase tracking-tight">{item.title}</h3>
                             </div>
-                            <p className="text-slate-400 text-[10px] leading-tight">
+                            <p className="text-slate-400 text-[11px] leading-snug">
                                 {item.desc}
                             </p>
                         </motion.div>
@@ -94,8 +94,11 @@ const VibeFundamentalsSlide = () => {
                     transition={{ delay: 1 }}
                     className="mt-8 text-center"
                 >
-                    <p className="text-slate-500 text-xs font-mono uppercase tracking-widest">
-                        "Good vibe coding isn't lazy — it's disciplined direction."
+                    <p className="text-slate-500 text-[10px] font-mono uppercase tracking-[0.4em] mb-2">
+                        "Iteration & Patience = No Bugs"
+                    </p>
+                    <p className="text-xs text-slate-400 font-medium max-w-xl mx-auto italic">
+                        "Vibe coding isn't lazy — it's about combining logical vision with AI execution and engineering discipline."
                     </p>
                 </motion.div>
             </div>
