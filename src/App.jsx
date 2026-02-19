@@ -10,6 +10,7 @@ import AgentTrendSlide from './slides/AgentTrendSlide';
 import VibeFundamentalsSlide from './slides/VibeFundamentalsSlide';
 import AgentSkillsSlide from './slides/AgentSkillsSlide';
 import VibeTutorialSlide from './slides/VibeTutorialSlide';
+import FutureVibeCodingSlide from './slides/FutureVibeCodingSlide';
 import RoadmapSlide from './slides/RoadmapSlide';
 import DemoSlide from './slides/DemoSlide';
 import ClosingSlide from './slides/ClosingSlide';
@@ -25,6 +26,7 @@ const slides = [
   <VibeFundamentalsSlide />,
   <AgentSkillsSlide />,
   <VibeTutorialSlide />,
+  <FutureVibeCodingSlide />,
   <RoadmapSlide />,
   <DemoSlide />,
   <ClosingSlide />
