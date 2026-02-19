@@ -7,6 +7,7 @@ import VibeExplainerSlide from './slides/VibeExplainerSlide';
 import VibeDefinitionSlide from './slides/VibeDefinitionSlide';
 import MindsetSlide from './slides/MindsetSlide';
 import ForbesVibeSlide from './slides/ForbesVibeSlide';
+import KarpathyVibeSlide from './slides/KarpathyVibeSlide';
 import ToolsSlide from './slides/ToolsSlide';
 import BigThreeToolsSlide from './slides/BigThreeToolsSlide';
 import SpotifyCaseSlide from './slides/SpotifyCaseSlide';
@@ -27,6 +28,7 @@ const slides = [
   <PersonalStorySlide />,
   <VibeExplainerSlide />,
   <VibeDefinitionSlide />,
+  <KarpathyVibeSlide />,
   <ForbesVibeSlide />,
   <MindsetSlide />,
   <ToolsSlide />,
