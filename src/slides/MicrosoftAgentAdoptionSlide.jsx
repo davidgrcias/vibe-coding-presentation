@@ -58,32 +58,50 @@ const MicrosoftAgentAdoptionSlide = () => {
         <Slide className="!p-4 md:!p-8 overflow-y-auto">
             <div className="max-w-[1400px] mx-auto flex flex-col gap-5">
 
-                {/* Header */}
-                <div>
+                {/* Header Section */}
+                <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div className="flex-1">
+                        <motion.div
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-900/30 border border-blue-500/20 text-blue-300 text-xs font-mono uppercase tracking-widest mb-3"
+                        >
+                            <ShieldCheck size={10} className="text-blue-400" />
+                            Microsoft Security Blog · Vasu Jakkal · Feb 10, 2026
+                        </motion.div>
+                        <motion.h1
+                            initial={{ opacity: 0, y: -15 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            className="text-4xl md:text-5xl font-black text-white tracking-tighter leading-none"
+                        >
+                            AI Agents Are{" "}
+                            <span className="text-blue-400 italic">No Longer Experimental</span>
+                        </motion.h1>
+                        <motion.p
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 0.15 }}
+                            className="text-slate-400 text-sm mt-1 max-w-2xl"
+                        >
+                            They're production systems embedded across operations — performing tasks at <span className="text-white font-semibold">machine speed</span> across the Fortune 500. Based on Microsoft telemetry, Nov 2025.
+                        </motion.p>
+                    </div>
+
+                    {/* Microsoft Blog Image */}
                     <motion.div
-                        initial={{ opacity: 0, x: -20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-900/30 border border-blue-500/20 text-blue-300 text-xs font-mono uppercase tracking-widest mb-3"
+                        initial={{ opacity: 0, scale: 0.9, rotate: -1 }}
+                        animate={{ opacity: 1, scale: 1, rotate: 0 }}
+                        transition={{ delay: 0.1 }}
+                        className="w-48 md:w-64 flex-shrink-0"
                     >
-                        <ShieldCheck size={10} className="text-blue-400" />
-                        Microsoft Security Blog · Vasu Jakkal · Feb 10, 2026
+                        <div className="rounded-xl border border-blue-500/20 shadow-2xl shadow-blue-500/10 overflow-hidden transform hover:scale-105 transition-transform duration-500">
+                            <img
+                                src="microsoft-fortune.png"
+                                alt="80% of Fortune 500 use active AI Agents - Microsoft"
+                                className="w-full h-auto"
+                            />
+                        </div>
                     </motion.div>
-                    <motion.h1
-                        initial={{ opacity: 0, y: -15 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className="text-4xl md:text-5xl font-black text-white tracking-tighter leading-none"
-                    >
-                        AI Agents Are{" "}
-                        <span className="text-blue-400 italic">No Longer Experimental</span>
-                    </motion.h1>
-                    <motion.p
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ delay: 0.15 }}
-                        className="text-slate-400 text-sm mt-1 max-w-2xl"
-                    >
-                        They're production systems embedded across operations — performing tasks at <span className="text-white font-semibold">machine speed</span> across the Fortune 500. Based on Microsoft telemetry, Nov 2025.
-                    </motion.p>
                 </div>
 
                 {/* Big Stats */}
