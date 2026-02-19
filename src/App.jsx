@@ -2,6 +2,7 @@ import React from 'react';
 import Deck from './components/Deck';
 import HeroSlide from './slides/HeroSlide';
 import ProblemSlide from './slides/ProblemSlide';
+import PersonalStorySlide from './slides/PersonalStorySlide';
 import VibeExplainerSlide from './slides/VibeExplainerSlide';
 import VibeDefinitionSlide from './slides/VibeDefinitionSlide';
 import MindsetSlide from './slides/MindsetSlide';
@@ -19,6 +20,7 @@ import ClosingSlide from './slides/ClosingSlide';
 const slides = [
   <HeroSlide />,
   <ProblemSlide />,
+  <PersonalStorySlide />,
   <VibeExplainerSlide />,
   <VibeDefinitionSlide />,
   <MindsetSlide />,
