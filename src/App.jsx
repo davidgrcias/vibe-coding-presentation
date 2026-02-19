@@ -8,6 +8,7 @@ import ToolsSlide from './slides/ToolsSlide';
 import SpotifyCaseSlide from './slides/SpotifyCaseSlide';
 import AgentTrendSlide from './slides/AgentTrendSlide';
 import VibeFundamentalsSlide from './slides/VibeFundamentalsSlide';
+import AgentSkillsSlide from './slides/AgentSkillsSlide';
 import VibeTutorialSlide from './slides/VibeTutorialSlide';
 import RoadmapSlide from './slides/RoadmapSlide';
 import DemoSlide from './slides/DemoSlide';
@@ -22,6 +23,7 @@ const slides = [
   <SpotifyCaseSlide />,
   <AgentTrendSlide />,
   <VibeFundamentalsSlide />,
+  <AgentSkillsSlide />,
   <VibeTutorialSlide />,
   <RoadmapSlide />,
   <DemoSlide />,
