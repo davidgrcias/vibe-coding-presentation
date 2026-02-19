@@ -14,6 +14,7 @@ import SpotifyCaseSlide from './slides/SpotifyCaseSlide';
 import AgentTrendSlide from './slides/AgentTrendSlide';
 import ITTransformationSlide from './slides/ITTransformationSlide';
 import AnthropicTrendsSlide from './slides/AnthropicTrendsSlide';
+import MicrosoftAgentAdoptionSlide from './slides/MicrosoftAgentAdoptionSlide';
 import VibeFundamentalsSlide from './slides/VibeFundamentalsSlide';
 import AgentSkillsSlide from './slides/AgentSkillsSlide';
 import VibeTutorialSlide from './slides/VibeTutorialSlide';
@@ -35,6 +36,7 @@ const slides = [
   <BigThreeToolsSlide />,
   <SpotifyCaseSlide />,
   <AgentTrendSlide />,
+  <MicrosoftAgentAdoptionSlide />,
   <ITTransformationSlide />,
   <AnthropicTrendsSlide />,
   <VibeFundamentalsSlide />,
