@@ -7,23 +7,23 @@ const RoadmapSlide = () => {
     const points = [
         {
             icon: <BookOpen className="text-blue-400" />,
-            title: "Fundamentals",
-            desc: "Speedrun the basics to debug AI code."
-        },
-        {
-            icon: <Scaling className="text-purple-400" />,
-            title: "V-Shaped",
-            desc: "Deep skills + broad AI integration."
+            title: "Speedrun Basics",
+            desc: "AI as personal mentor (analogies, error breakdowns). 1-2 months deep dive."
         },
         {
             icon: <Terminal className="text-green-400" />,
-            title: "Prompting",
-            desc: "Senior techniques for multiplier effects."
+            title: "Expert Prompting",
+            desc: "Chain of Thought & Context Injection. Standardized senior-level workflows."
         },
         {
-            icon: <UserCheck className="text-amber-400" />,
-            title: "Mindset",
-            desc: "Don't be a typist, be an architect."
+            icon: <Scaling className="text-purple-400" />,
+            title: "V-Shaped Growth",
+            desc: "Deep specialty + AI-bridged breadth. Full-stack problem solvers."
+        },
+        {
+            icon: <Zap className="text-amber-400" />,
+            title: "10x Multiplier",
+            desc: "Vibe coding is the new normal. Ship early, ship often, ship live."
         }
     ];
 
@@ -33,6 +33,13 @@ const RoadmapSlide = () => {
 
                 {/* Header */}
                 <div className="text-center mb-6">
+                    <motion.div
+                        initial={{ opacity: 0, y: -10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        className="inline-block px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-mono mb-2 uppercase tracking-widest"
+                    >
+                        Sandhika Galih • WPU • 2026
+                    </motion.div>
                     <motion.h1
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -50,12 +57,16 @@ const RoadmapSlide = () => {
                     transition={{ duration: 0.8 }}
                     className="w-full mb-8 relative"
                 >
-                    <div className="bg-slate-900 rounded-3xl border-2 border-primary/20 shadow-[0_0_80px_-20px_rgba(var(--primary-rgb),0.4)] overflow-hidden">
+                    <div className="bg-slate-900 rounded-3xl border-2 border-primary/20 shadow-[0_0_80px_-20px_rgba(var(--primary-rgb),0.2)] overflow-hidden">
                         <img
                             src="/wpu.png"
                             alt="Roadmap 2026"
                             className="w-full h-auto block"
                         />
+                    </div>
+                    {/* Floating Badge */}
+                    <div className="absolute top-4 right-4 bg-primary text-black px-4 py-1 rounded-full font-black text-xs uppercase tracking-widest shadow-2xl">
+                        AI Jet Engine
                     </div>
                 </motion.div>
 
@@ -67,15 +78,15 @@ const RoadmapSlide = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.4 + (index * 0.1) }}
-                            className="p-4 rounded-xl border border-white/10 bg-primary/5"
+                            className="p-5 rounded-xl border border-white/10 bg-primary/5 backdrop-blur-sm group hover:bg-primary/10 transition-all"
                         >
                             <div className="flex items-center gap-3 mb-2">
-                                <div className="p-2 rounded-lg bg-black/20">
+                                <div className="p-2 rounded-lg bg-black/40 group-hover:bg-primary/20 transition-colors">
                                     {point.icon}
                                 </div>
                                 <h3 className="text-xs font-bold text-white uppercase tracking-tight">{point.title}</h3>
                             </div>
-                            <p className="text-slate-400 text-[10px] leading-tight">
+                            <p className="text-slate-400 text-[11px] leading-snug">
                                 {point.desc}
                             </p>
                         </motion.div>
@@ -86,11 +97,16 @@ const RoadmapSlide = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1 }}
-                    className="mt-8 px-6 py-2 rounded-full bg-primary/20 border border-primary/30"
+                    className="mt-8 flex flex-col items-center gap-2"
                 >
-                    <p className="text-xs text-primary font-black uppercase tracking-widest">
-                        Maximize AI — Master Fundamentals
+                    <p className="text-slate-500 text-[10px] font-mono uppercase tracking-[0.4em] mb-2">
+                        "Jangan Jadi Tukang Ketik — Jadi Arsitek"
                     </p>
+                    <div className="px-6 py-2 rounded-full bg-primary/20 border border-primary/30">
+                        <p className="text-xs text-primary font-black uppercase tracking-widest">
+                            AI Multiplier + Human Reasoning
+                        </p>
+                    </div>
                 </motion.div>
             </div>
         </Slide>
