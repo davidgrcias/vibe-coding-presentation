@@ -27,6 +27,7 @@ import ITTransformationSlide from './slides/ITTransformationSlide';
 import VibeFundamentalsSlide from './slides/VibeFundamentalsSlide';
 import VibeTutorialSlide from './slides/VibeTutorialSlide';
 import AddyOsmaniSlide from './slides/AddyOsmaniSlide';
+import TechBroSetupSlide from './slides/TechBroSetupSlide';
 import FutureVibeCodingSlide from './slides/FutureVibeCodingSlide';
 import RoadmapSlide from './slides/RoadmapSlide';
 
@@ -61,6 +62,7 @@ const slides = [
   <VibeFundamentalsSlide />,
   <VibeTutorialSlide />,
   <AddyOsmaniSlide />,
+  <TechBroSetupSlide />,
   <FutureVibeCodingSlide />,
   <RoadmapSlide />,
 
