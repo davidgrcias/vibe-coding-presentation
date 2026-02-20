@@ -42,7 +42,7 @@ const IdentityCrisisSlide = () => {
                         </div>
                         <div className="bg-black/40 p-2 rounded-2xl border border-red-500/20 shadow-[0_0_50px_-10px_rgba(239,68,68,0.2)]">
                             <img
-                                src="afiq.jpg"
+                                src="afiq.png"
                                 alt="Afiq Sazlan Tweet: Rethinking career as software engineer"
                                 className="w-full rounded-xl opacity-90 group-hover:opacity-100 transition-opacity"
                             />

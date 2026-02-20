@@ -26,6 +26,7 @@ import AnthropicTrendsSlide from './slides/AnthropicTrendsSlide';
 import ITTransformationSlide from './slides/ITTransformationSlide';
 import VibeFundamentalsSlide from './slides/VibeFundamentalsSlide';
 import VibeTutorialSlide from './slides/VibeTutorialSlide';
+import AddyOsmaniSlide from './slides/AddyOsmaniSlide';
 import FutureVibeCodingSlide from './slides/FutureVibeCodingSlide';
 import RoadmapSlide from './slides/RoadmapSlide';
 
@@ -59,6 +60,7 @@ const slides = [
   <ITTransformationSlide />,
   <VibeFundamentalsSlide />,
   <VibeTutorialSlide />,
+  <AddyOsmaniSlide />,
   <FutureVibeCodingSlide />,
   <RoadmapSlide />,
 
