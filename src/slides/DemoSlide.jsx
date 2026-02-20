@@ -7,7 +7,7 @@ const DemoSlide = () => {
     return (
         <Slide title="Live Showdown">
             <div className="flex flex-col items-center justify-center h-full gap-10 max-w-4xl mx-auto">
-                
+
                 {/* Visual Icon */}
                 <motion.div
                     animate={{
@@ -27,7 +27,7 @@ const DemoSlide = () => {
 
                 {/* Main Text */}
                 <div className="text-center space-y-4">
-                    <motion.div 
+                    <motion.div
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         className="inline-block px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-mono font-bold uppercase tracking-widest"
@@ -45,10 +45,10 @@ const DemoSlide = () => {
                 {/* MVP Features Grid */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full">
                     {[
-                        { icon: <Zap size={18} className="text-yellow-400" />, label: "WebSockets", sub: "Real-time sync" },
-                        { icon: <Users size={18} className="text-blue-400" />, label: "Multi-room", sub: "Public & Private" },
-                        { icon: <ShieldCheck size={18} className="text-green-400" />, label: "Auth", sub: "User session" },
-                        { icon: <MessageSquare size={18} className="text-purple-400" />, label: "Persistence", sub: "Chat history" }
+                        { icon: <Zap size={18} className="text-yellow-400" />, label: "Durable Objects", sub: "Cloudflare Workers" },
+                        { icon: <Users size={18} className="text-blue-400" />, label: "Hugging Face", sub: "Indo Profanity Filter" },
+                        { icon: <ShieldCheck size={18} className="text-green-400" />, label: "Serverless", sub: "Astro Hybrid" },
+                        { icon: <MessageSquare size={18} className="text-purple-400" />, label: "WebSockets", sub: "Real-time Logic" }
                     ].map((feature, i) => (
                         <motion.div
                             key={i}
@@ -71,9 +71,9 @@ const DemoSlide = () => {
                 {/* Conclusion footer */}
                 <div className="p-4 bg-slate-900/50 border border-slate-800 rounded-xl text-center w-full">
                     <p className="text-slate-400 text-sm">
-                        Total Code Generated: <span className="text-blue-400 font-mono">1,500+ lines</span> 
-                        &nbsp; | &nbsp; 
-                        Build Time: <span className="text-white font-bold">&lt; 10 Minutes</span>
+                        Total Code Authored: <span className="text-blue-400 font-mono">~300 lines</span>
+                        &nbsp; | &nbsp;
+                        Deployment: <span className="text-white font-bold">&lt; 5 Minutes</span>
                     </p>
                 </div>
 
