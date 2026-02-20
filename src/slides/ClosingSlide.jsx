@@ -1,7 +1,7 @@
 import React from 'react';
 import Slide from '../components/Slide';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, MessageSquare, Users } from 'lucide-react';
 
 const ClosingSlide = () => {
     return (
@@ -56,11 +56,11 @@ const ClosingSlide = () => {
                     transition={{ delay: 1 }}
                     className="flex gap-8 text-slate-500 mt-12 pt-8 border-t border-slate-800/50"
                 >
-                    <a href="#" className="hover:text-blue-400 transition-colors flex items-center gap-2 text-sm">
-                        <Github size={18} /> @yourhandle
+                    <a href="https://github.com/davidgrcias" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors flex items-center gap-2 text-sm">
+                        <Github size={18} /> @davidgrcias
                     </a>
-                    <a href="#" className="hover:text-blue-400 transition-colors flex items-center gap-2 text-sm">
-                        <Linkedin size={18} /> in/yourprofile
+                    <a href="https://www.linkedin.com/in/davidgrcias/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors flex items-center gap-2 text-sm">
+                        <Linkedin size={18} /> in/davidgrcias
                     </a>
                 </motion.div>
             </div>
