@@ -32,6 +32,7 @@ import AddyOsmaniSlide from './slides/AddyOsmaniSlide';
 import TechBroSetupSlide from './slides/TechBroSetupSlide';
 import AutonomousGitSlide from './slides/AutonomousGitSlide';
 import RuthlessReviewSlide from './slides/RuthlessReviewSlide';
+import MCPDevToolsSlide from './slides/MCPDevToolsSlide';
 import FutureVibeCodingSlide from './slides/FutureVibeCodingSlide';
 import RoadmapSlide from './slides/RoadmapSlide';
 
@@ -71,6 +72,7 @@ const slides = [
   <TechBroSetupSlide />,
   <AutonomousGitSlide />,
   <RuthlessReviewSlide />,
+  <MCPDevToolsSlide />,
   <FutureVibeCodingSlide />,
   <RoadmapSlide />,
 
