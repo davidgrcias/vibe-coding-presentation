@@ -21,6 +21,7 @@ import AgentTrendSlide from './slides/AgentTrendSlide';
 import MicrosoftAgentAdoptionSlide from './slides/MicrosoftAgentAdoptionSlide';
 import SpotifyCaseSlide from './slides/SpotifyCaseSlide';
 import AnthropicTrendsSlide from './slides/AnthropicTrendsSlide';
+import JuliaChildSlide from './slides/JuliaChildSlide';
 
 // Act 4: ACTION — "How Do YOU Start?"
 import ITTransformationSlide from './slides/ITTransformationSlide';
@@ -56,6 +57,7 @@ const slides = [
   <MicrosoftAgentAdoptionSlide />,
   <SpotifyCaseSlide />,
   <AnthropicTrendsSlide />,
+  <JuliaChildSlide />,
 
   // Act 4: ACTION
   <ITTransformationSlide />,
