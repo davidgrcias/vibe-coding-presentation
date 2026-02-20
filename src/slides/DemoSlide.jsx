@@ -32,7 +32,7 @@ const DemoSlide = () => {
                         animate={{ opacity: 1, y: 0 }}
                         className="inline-block px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-mono font-bold uppercase tracking-widest"
                     >
-                        The 10-Minute MVP Challenge
+                        The 15-Minute MVP Challenge
                     </motion.div>
                     <h2 className="text-5xl font-black text-white tracking-tighter">
                         Real-time Multi-room Chat
@@ -71,9 +71,9 @@ const DemoSlide = () => {
                 {/* Conclusion footer */}
                 <div className="p-4 bg-slate-900/50 border border-slate-800 rounded-xl text-center w-full">
                     <p className="text-slate-400 text-sm">
-                        Total Code Authored: <span className="text-blue-400 font-mono">~300 lines</span>
+                        Total Code Generated: <span className="text-blue-400 font-mono">2,000+ lines</span>
                         &nbsp; | &nbsp;
-                        Deployment: <span className="text-white font-bold">&lt; 5 Minutes</span>
+                        Build Time: <span className="text-white font-bold">&lt; 15 Minutes</span>
                     </p>
                 </div>
 
