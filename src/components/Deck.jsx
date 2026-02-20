@@ -1,9 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState, useEffect, useCallback } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const Deck = ({ slides }) => {
     const [currentSlide, setCurrentSlide] = useState(0);
+
+    const nextSlide = useCallback(() => {
+        setCurrentSlide((prev) => (prev < slides.length - 1 ? prev + 1 : prev));
+    }, [slides.length]);
+
+    const prevSlide = useCallback(() => {
+        setCurrentSlide((prev) => (prev > 0 ? prev - 1 : prev));
+    }, []);
 
     useEffect(() => {
         const handleKeyDown = (e) => {
@@ -16,15 +24,7 @@ const Deck = ({ slides }) => {
 
         window.addEventListener('keydown', handleKeyDown);
         return () => window.removeEventListener('keydown', handleKeyDown);
-    }, [currentSlide]);
-
-    const nextSlide = () => {
-        setCurrentSlide((prev) => (prev < slides.length - 1 ? prev + 1 : prev));
-    };
-
-    const prevSlide = () => {
-        setCurrentSlide((prev) => (prev > 0 ? prev - 1 : prev));
-    };
+    }, [nextSlide, prevSlide]);
 
     return (
         <div className="presentation-deck relative w-full h-screen bg-background text-foreground overflow-hidden">

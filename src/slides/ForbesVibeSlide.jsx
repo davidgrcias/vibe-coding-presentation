@@ -13,8 +13,6 @@ const ForbesVibeSlide = () => {
 
     const isNotItems = [
         { icon: <XCircle size={14} className="text-red-400 flex-shrink-0 mt-0.5" />, text: "NOT a replacement for traditional software engineering" },
-        { icon: <XCircle size={14} className="text-red-400 flex-shrink-0 mt-0.5" />, text: "NOT for customer-facing or mission-critical production systems" },
-        { icon: <XCircle size={14} className="text-red-400 flex-shrink-0 mt-0.5" />, text: "NOT for tools that handle sensitive data or financial transactions" },
         { icon: <XCircle size={14} className="text-red-400 flex-shrink-0 mt-0.5" />, text: "NOT a threat to software engineers — it makes them faster" },
     ];
 
