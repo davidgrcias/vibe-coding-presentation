@@ -38,6 +38,7 @@ import RoadmapSlide from './slides/RoadmapSlide';
 
 // Act 5: CLOSE — "Now Go Do It"
 import DemoSlide from './slides/DemoSlide';
+import OpenSourceSlide from './slides/OpenSourceSlide';
 import ClosingSlide from './slides/ClosingSlide';
 
 const slides = [
@@ -78,6 +79,7 @@ const slides = [
 
   // Act 5: CLOSE
   <DemoSlide />,
+  <OpenSourceSlide />,
   <ClosingSlide />
 ];
 
